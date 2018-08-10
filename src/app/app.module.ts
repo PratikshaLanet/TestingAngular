@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import {UserService} from "./user/user.service";
+import { ReversePipe } from './shared/reverse.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent
+    UserComponent,
+    ReversePipe
   ],
   imports: [
     BrowserModule
